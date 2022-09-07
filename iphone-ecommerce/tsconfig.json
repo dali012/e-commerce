@@ -6,7 +6,7 @@
     "./node_modules/@sanity/base/types/**/*.ts",
     "./**/*.ts",
     "./**/*.tsx"
-  ],
+, "schemas/schema.js"  ],
   "compilerOptions": {
     "jsx": "react"
   }
