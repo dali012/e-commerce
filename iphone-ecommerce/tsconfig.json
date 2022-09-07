@@ -5,8 +5,10 @@
   "include": [
     "./node_modules/@sanity/base/types/**/*.ts",
     "./**/*.ts",
-    "./**/*.tsx"
-, "schemas/schema.js", "sanity-codegen.config.js"  ],
+    "./**/*.tsx",
+    "schemas/schema.js",
+    "sanity-codegen.config.ts"
+  ],
   "compilerOptions": {
     "jsx": "react"
   }
