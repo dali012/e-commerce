@@ -1,4 +1,3 @@
-import { Category } from "../iphone-ecommerce/schema";
 
 export const fetchCategories = async () => {
   const res = await fetch(

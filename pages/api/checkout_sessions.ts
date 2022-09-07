@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import Stripe from "stripe";
-import { Product } from "../../iphone-ecommerce/schema";
 import { urlFor } from "../../sanity-client";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {

@@ -1,7 +1,6 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import React from "react";
-import { Product } from "../iphone-ecommerce/schema";
 import { urlFor } from "../sanity-client";
 import Currency from "react-currency-formatter";
 import { useDispatch } from "react-redux";

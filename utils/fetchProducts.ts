@@ -1,4 +1,3 @@
-import { Product } from "../iphone-ecommerce/schema";
 
 export const fetchProducts = async () => {
   const res = await fetch(

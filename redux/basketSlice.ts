@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { Product } from "../iphone-ecommerce/schema";
 import { RootState } from "./store";
 
 export interface BasketState {

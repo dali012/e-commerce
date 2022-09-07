@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 import Button from "../components/Button";
 import CheckoutProduct from "../components/CheckoutProduct";
 import Header from "../components/Header";
-import { Product } from "../iphone-ecommerce/schema";
 import { selectBasketItems, selectBasketTotal } from "../redux/basketSlice";
 import Currency from "react-currency-formatter";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";

@@ -2,7 +2,6 @@ import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { Product } from "../iphone-ecommerce/schema";
 import { addToBasket } from "../redux/basketSlice";
 import { urlFor } from "../sanity-client";
 import toast from "react-hot-toast";

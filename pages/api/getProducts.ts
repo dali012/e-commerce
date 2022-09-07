@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { Product } from "../../iphone-ecommerce/schema";
 import { sanityClient } from "../../sanity-client";
 import { groq } from "next-sanity";
 
